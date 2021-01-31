@@ -37,6 +37,6 @@ rank(x)
 x1=c(10,20,20,36,36)
 rank(x1)
 rank(mtcars$mpg, ties.method = 'min')
-# rank(mtcars$mpg, ties.method = 'max')
+rank(mtcars$mpg, ties.method = 'max')
 rorder =cbind(mtcars$mpg, rank(mtcars$mpg, ties.method = 'max'))
 rorder
